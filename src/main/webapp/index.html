@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movies</title>
+</head>
+<body>
+    <h1>Add new movie</h1>
+    <form action="saveServlet" method="post">
+        <table>
+            <tr><td>Title:</td><td><input type="text" name="title"></td></tr>
+            <tr><td>Director:</td><td><input type="text" name="director"></td></tr>
+            <tr><td>Price:</td><td><input type="text" name="price"></td></tr>
+            <tr><td colspan="2"><input type="submit" value="Save Movie"/></td></tr>
+        </table>
+    </form>
+
+    <br>
+    <a href="/viewServlet">View Movies</a>
+</body>
+</html>
